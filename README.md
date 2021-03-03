@@ -2,6 +2,11 @@
 ___________________________________________________________________
 USE POSTMAN FOR TESTING APIs
 ___________________________________________________________________
+open cmd
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
 
 1.Sign up (for more information go to : ss\sign.jpg) :-
   http://127.0.0.1:8000/signup/
